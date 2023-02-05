@@ -1,0 +1,96 @@
+body {
+	width: 598px;
+}
+
+.wd-bookmark {
+	padding-top: 12px;
+	border-bottom: 1px solid lightgray;
+}
+.wd-bookmark__title {
+	color: white;
+	font-size: 20px;
+}
+.wd-bookmarked__post {
+	color: lightgray;
+	font-size: 13px;
+	margin-bottom: 12px;
+}
+
+.wd-bookmark__post {
+	padding-top: 12px;
+}
+.wd-bookmark__post__avatar {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.wd-bookmark__post__avatar img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	display: block;
+}
+.wd-bookmark__post__content {
+	margin-left: 60px;
+	font-size: 15px;
+}
+.wd-bookmark__post__hash {
+	color: lightgray;
+}
+
+.wd-bookmark__post__main {
+	font-size: 15px;
+	color: white;
+	width: 506px;
+	margin-bottom: 12px;
+	margin-right: 16px;
+}
+.wd-bookmark__post__img {
+	width: 504px;
+	height: 264px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid lightgray;
+}
+
+.wd-bookmark__post__body {
+	border-radius: 10px;
+	border: 1px solid lightgray;
+	width: 504px;
+}
+
+.wd-bookmark__post__text {
+	width: 480px;
+	padding: 12px;
+}
+.wd-bookmark__post__text-title {
+	font-weight: bold;
+	font-size: 15px;
+}
+.wd-bookmark__post__text-content {
+	color: lightgray;
+}
+
+/* Icons */
+.wd-bookmark__icons {
+	margin-top: 12px;
+	margin-bottom: 20px;
+	height: 24px;
+}
+.wd-bookmark__icon-col {
+	font-size: 15px;
+	text-decoration: none;
+	color: lightgray;
+}
+.wd-bookmark__icon {
+	/*width: 20px;*/
+	/*height: 20px;*/
+	margin-right: 12px;
+	color: lightgray;
+}
+.wd-bookmark__icon-heart {
+	color: red;
+}
+.gg-heart {
+	color: red;
+}
