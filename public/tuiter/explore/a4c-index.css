@@ -1,0 +1,162 @@
+/********** Left Navigation **********/
+.fa-t {
+	color: deepskyblue;
+}
+.nav-left-active {
+	font-weight: bold;
+}
+.wd-left-nav .list-group-item {
+	border: none;
+}
+
+/********** Main **********/
+/* Search Box */
+.wd-search-bx-btn {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: whitesmoke;
+	border: none;
+}
+.wd-search-bx-field {
+	color: gray;
+	background-color: whitesmoke;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: none;
+	font-weight: bold;
+}
+.wd-search-setting {
+	text-align: center;
+}
+/* Tabs */
+.nav-link {
+	color: gray;
+}
+.nav-link-pill-active {
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+	text-decoration-color: deepskyblue;
+	text-underline-offset: 14px;
+}
+
+/* Big Image Overlay Text */
+.wd-main-img-big-text {
+	line-height: 150%;
+}
+.wd-main-img-big-text-live {
+	color: lightgray;
+	font-size: 16px;
+}
+.wd-main-img-big-text-title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* Contents */
+.wd-main-img-small {
+	width: 60px;
+	height: 60px;
+}
+.wd-main-trending,
+.wd-main-tweets,
+.wd-main-trending-with {
+	color: gray;
+	font-size: 15px;
+}
+.wd-main-topic,
+.wd-main-title,
+.wd-main-hash {
+	font-weight: bold;
+	font-size: 16px;
+}
+.wd-main-texts .list-group-item {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0px;
+}
+.wd-main-trending-with-link {
+	text-decoration: none;
+	color: deepskyblue;
+}
+.wd-main-text-more {
+	color: gray;
+}
+
+/********** Right Nav **********/
+.wd-right-nav .list-group-item {
+	background-color: whitesmoke;
+	border: none;
+}
+.wd-right-nav > .list-group-item:first-child {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.wd-right-nav > .list-group-item:last-child {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.wd-right-nav-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+.wd-right-nav-img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.wd-right-nav-text {
+	line-height: 120%;
+}
+.wd-right-nav-item-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.blue-check {
+	color: deepskyblue;
+}
+.yellow-check {
+	color: gold;
+}
+.wd-right-nav-more {
+	color: deepskyblue;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+/* Copyright */
+.wd-right-nav-copyright {
+	color: gray;
+	text-decoration: none;
+}
+.wd-right-nav-copyright-link {
+	color: gray;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+/********** Commons **********/
+.promoted-icon {
+	color: white;
+	background-color: gray;
+	border-radius: 3px;
+}
+.promoted {
+	color: gray;
+	font-size: 14px;
+}
+
+/* Button */
+.blue-btn {
+	border-radius: 20px;
+	background-color: deepskyblue;
+	border: none;
+}
+.black-btn {
+	border-radius: 20px;
+	background-color: black;
+	border: none;
+}

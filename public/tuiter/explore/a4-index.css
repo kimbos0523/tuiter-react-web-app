@@ -1,0 +1,59 @@
+/********** Left Navigation **********/
+
+/********** Main **********/
+/* Search Box */
+.wd-search-bx-btn {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-right: none;
+}
+.wd-search-bx-field {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.wd-search-setting {
+	text-align: center;
+}
+/* Tabs */
+
+/* Big Image Overlay Text */
+.wd-main-img-big-text {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* Contents */
+.wd-main-img-small {
+	width: 60px;
+	height: 60px;
+}
+.wd-main-trending,
+.wd-main-topic-period,
+.wd-main-tweets {
+	color: gray;
+	font-size: 16px;
+}
+.wd-main-topic,
+.wd-main-title {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/********** Right Nav **********/
+.wd-right-nav-title {
+	font-size: 20px;
+}
+.wd-right-nav-img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.wd-right-nav-item-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.blue-btn {
+	border-radius: 20px;
+}

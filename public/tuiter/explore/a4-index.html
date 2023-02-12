@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<!-- bootstrap -->
+	<link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	<!-- icons -->
+	<script src="https://kit.fontawesome.com/7e436e3d15.js" crossorigin="anonymous"></script>
+	<link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+	<!-- css -->
+	<link href="a4-index.css" rel="stylesheet"/>
+</head>
+<body class="mt-2">
+	<div class="container">
+		<div class="row">
+			<!-- Left Sidebar -->
+			<nav class="wd-left-nav col-2">
+				<div class="nav-left-links list-group mb-2">
+					<a href="#" class="list-group-item">
+						<i class="fab fa-twitter fa-1x"></i>
+					</a>
+					<a href="../home.html" class="list-group-item">
+						<i class="fa fa-home fa-1x"></i>
+						<span class="d-none d-xl-inline">Home</span>
+					</a>
+					<a href="../explore/index.html" class="list-group-item active">
+						<i class="fa fa-hashtag fa-1x"></i>
+						<span class="d-none d-xl-inline">Explore</span>
+					</a>
+					<a href="../notification.html" class="list-group-item">
+						<i class="fa fa-bell fa-1x"></i>
+						<span class="d-none d-xl-inline">Notification</span>
+					</a>
+					<a href="../messages.html" class="list-group-item">
+						<i class="fa fa-envelope fa-1x"></i>
+						<span class="d-none d-xl-inline">Messages</span>
+					</a>
+					<a href="../bookmarks/index.html" class="list-group-item">
+						<i class="fa fa-bookmark fa-1x"></i>
+						<span class="d-none d-xl-inline">Bookmarks</span>
+					</a>
+					<a href="../lists.html" class="list-group-item">
+						<i class="fa fa-list fa-1x"></i>
+						<span class="d-none d-xl-inline">Lists</span>
+					</a>
+					<a href="../profile.html" class="list-group-item">
+						<i class="fa fa-user fa-1x"></i>
+						<span class="d-none d-xl-inline">Profile</span>
+					</a>
+					<a href="../more.html" class="list-group-item">
+						<i class="fa fa-ellipsis-h fa-1x"></i>
+						<span class="d-none d-xl-inline">More</span>
+					</a>
+				</div>
+				<button class="container blue-btn btn btn-primary">Tuit</button>
+			</nav>
+
+			<!-- Main -->
+			<main class="col-10 col-lg-6">
+				<!-- Search Box -->
+				<div class="row mb-2">
+					<div class="col-11">
+						<div class="wd-search-bx input-group">
+							<button type="button" class="wd-search-bx-btn btn btn-outline-secondary">
+								<i class="fa fa-search fa-1x"></i>
+							</button>
+							<input type="search" class="wd-search-bx-field form-control"
+							       placeholder="Search Tuiter">
+						</div>
+					</div>
+					<div class="wd-search-setting col-1 align-self-center">
+						<i class="fa fa-cog fa-2x"></i>
+					</div>
+				</div>
+
+				<!-- Tabs -->
+				<ul class="wd-search-tabs nav nav-tabs mb-2">
+					<li class="nav-item">
+						<a class="nav-link active" href="for-you.html">For You</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="trending.html">Trending</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">News</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sports.html">Sports</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link d-none d-md-block" href="entertainment.html">Entertainment</a>
+					</li>
+				</ul>
+
+				<!-- Content -->
+				<div class="wd-main-contents">
+
+					<!-- Big Image -->
+					<div class="position-relative">
+						<img class="wd-main-img-big img-fluid" src="images/spaceX_starship.jpg">
+						<div class="wd-main-img-big-text position-absolute bottom-0 left-0 p-3 text-white">
+							SpaceX's Starship
+						</div>
+					</div>
+
+					<!-- Text Lists -->
+					<ul class="wd-main-texts list-group">
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-10">
+									<div class="row">
+										<div class="wd-main-trending col-12">
+											Web Development
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-topic col-12">
+											ReactJS
+											<i class="fa fa-check-circle fa-1x"></i>
+											<span class="wd-main-topic-period">
+										- 2h
+									</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-title col-12">
+											React.js is a component based front end library that makes it very easy to build Single Page
+											Applications or SPAs
+										</div>
+									</div>
+								</div>
+								<div class="col-2 text-center">
+									<img class="wd-main-img-small img-fluid" src="images/react.jpg">
+								</div>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-10">
+									<div class="row">
+										<div class="wd-main-topic col-12">
+											JavaScript
+											<i class="fa fa-check-circle fa-1x"></i>
+											<span class="wd-main-topic-period">
+												- 2h
+											</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-title col-12">
+											JavaScript is programming language that can run on browsers as well as desktops
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-tweets col-12">
+											123K Tweets
+										</div>
+									</div>
+								</div>
+								<div class="col-2 text-center">
+									<img class="wd-main-img-small img-fluid" src="images/javascript.jpg">
+								</div>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-10">
+									<div class="row">
+										<div class="wd-main-trending col-12">
+											Web Development
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-topic col-12">
+											JQuery
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-tweets col-12">
+											123K Tweets
+										</div>
+									</div>
+								</div>
+								<div class="col-2 text-center">
+									<img class="wd-main-img-small img-fluid" src="images/jquery.jpg">
+								</div>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-10">
+									<div class="row">
+										<div class="wd-main-trending col-12">
+											Web Development
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-topic col-12">
+											NodeJS
+											<i class="fa fa-check-circle fa-1x"></i>
+											<span class="wd-main-topic-period">
+										- 2h
+									</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="wd-main-tweets col-12">
+											123K Tweets
+										</div>
+									</div>
+								</div>
+								<div class="col-2 text-center">
+									<img class="wd-main-img-small img-fluid" src="images/node.jpg">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</main>
+
+			<!-- Right Sidebar -->
+			<nav class="col-lg-4 d-none d-lg-block">
+				<ul class="list-group">
+					<li class="list-group-item align-items-center">
+						<h3 class="wd-right-nav-title">Who to follow</h3>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-2">
+								<img class="wd-right-nav-img wd-img-java" src="images/java.jpg">
+							</div>
+							<div class="col-7">
+								<div class="wd-right-nav-item-title col-12">
+									Java
+									<i class="fa fa-check-circle fa-1x"></i>
+								</div>
+								<div class="wd-right-nav-item-hash col-12">@Java</div>
+							</div>
+							<div class="col-3 align-self-center">
+								<button type="button" class="wd-right-nav-button blue-btn btn btn-primary float-end">Follow</button>
+							</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-2">
+								<img class="wd-right-nav-img wd-img-java" src="images/relativity_space.jpg">
+							</div>
+							<div class="col-7">
+								<div class="wd-right-nav-item-title col-12">
+									Relativity Space
+									<i class="fa fa-check-circle fa-1x"></i>
+								</div>
+								<div class="wd-right-nav-item-hash col-12">@relativityspace</div>
+							</div>
+							<div class="col-3 align-self-center">
+								<button type="button" class="wd-right-nav-button blue-btn btn btn-primary float-end">Follow</button>
+							</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-2">
+								<img class="wd-right-nav-img wd-img-java" src="images/virgin_galactic.jpg">
+							</div>
+							<div class="col-7">
+								<div class="wd-right-nav-item-title col-12">
+									Virgin Galactic
+									<i class="fa fa-check-circle fa-1x"></i>
+								</div>
+								<div class="wd-right-nav-item-hash col-12">@virgingalactic</div>
+							</div>
+							<div class="col-3 align-self-center">
+								<button type="button" class="wd-right-nav-button blue-btn btn btn-primary float-end">Follow</button>
+							</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-2">
+								<img class="wd-right-nav-img wd-img-java" src="images/nasa.jpg">
+							</div>
+							<div class="col-7">
+								<div class="wd-right-nav-item-title col-12">
+									NASA
+									<i class="fa fa-check-circle fa-1x"></i>
+								</div>
+								<div class="wd-right-nav-item-hash col-12">@NASA</div>
+							</div>
+							<div class="col-3 align-self-center">
+								<button type="button" class="wd-right-nav-button blue-btn btn btn-primary float-end">Follow</button>
+							</div>
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-2">
+								<img class="wd-right-nav-img wd-img-java" src="images/tesla.jpg">
+							</div>
+							<div class="col-7">
+								<div class="wd-right-nav-item-title col-12">
+									Tesla
+									<i class="fa fa-check-circle fa-1x"></i>
+								</div>
+								<div class="wd-right-nav-item-hash col-12">@Tesla</div>
+							</div>
+							<div class="col-3 align-self-center">
+								<button type="button" class="wd-right-nav-button blue-btn btn btn-primary float-end">Follow</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+</body>
+</html>
