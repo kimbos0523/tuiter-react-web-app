@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- bootstrap -->
+	<link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	<!-- bootswatch -->
+	<link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
+	<!-- css -->
+	<link href="a5-index.css" rel="stylesheet"/>
+	<!-- icons -->
+	<link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+	<script src="https://kit.fontawesome.com/7e436e3d15.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+	        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+	        crossorigin="anonymous"></script>
+
+	<meta charset="UTF-8">
+	<title>Explore Screen</title>
+</head>
+<body>
+
+	<div class="container" id="wd-explore"></div>
+	<!-- javaScript -->
+	<script src="a5-index.js" type="module"></script>
+
+	<!--	<div class="container">-->
+<!--		<div class="row">-->
+<!--			&lt;!&ndash; Left Sidebar &ndash;&gt;-->
+<!--			<nav class="wd-left-nav col-2 pt-2">-->
+<!--				<div class="nav-left-links list-group mb-2">-->
+<!--					<a href="#" class="list-group-item">-->
+<!--						<i class="fa-solid fa-t"></i>-->
+<!--					</a>-->
+<!--					<a href="../home.html" class="list-group-item">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="fa fa-home fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">Home</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--					<a href="../explore/index.html" class="list-group-item nav-left-active">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="fas fa-hashtag fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">Explore</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--					<a href="../notification.html" class="list-group-item">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="far fa-bell fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">Notification</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--					<a href="../messages.html" class="list-group-item">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="fa fa-envelope fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">Messages</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--					<a href="../bookmarks/index.html" class="list-group-item">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="fa fa-bookmark fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">Bookmarks</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--					<a href="../lists.html" class="list-group-item">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="fa fa-fire-alt fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">Top Articles</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--					<a href="../profile.html" class="list-group-item">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="fa fa-user fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">Profile</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--					<a href="../more.html" class="list-group-item">-->
+<!--						<div class="nav-left-item row">-->
+<!--							<div class="col-2"><i class="fa fa-ellipsis-h fa-1x align-middle"></i></div>-->
+<!--							<span class="d-none d-xl-inline col-10">More</span>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<button class="container blue-btn btn btn-primary">Tuit</button>-->
+<!--			</nav>-->
+
+<!--			&lt;!&ndash; Main &ndash;&gt;-->
+<!--			<main class="col-10 col-lg-6">-->
+<!--				<div class="border">-->
+<!--					&lt;!&ndash; Search Box &ndash;&gt;-->
+<!--					<div class="wd-search row pt-2 mb-2">-->
+<!--						<div class="col-10">-->
+<!--							<div class="wd-search-bx input-group ms-2">-->
+<!--								<button type="button" class="wd-search-bx-btn btn btn-outline-secondary">-->
+<!--									<i class="fa fa-search fa-1x"></i>-->
+<!--								</button>-->
+<!--								<input type="search" class="wd-search-bx-field form-control"-->
+<!--								       placeholder="Search Tuiter">-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="wd-search-setting col-2 align-self-center">-->
+<!--							<i class="fa fa-cog fa-lg float-left"></i>-->
+<!--						</div>-->
+<!--					</div>-->
+
+<!--					&lt;!&ndash; Pills &ndash;&gt;-->
+<!--					<ul class="wd-search-tabs nav nav-pills justify-content-around mb-2">-->
+<!--						<li class="nav-item">-->
+<!--							<a class="nav-link nav-link-pill-active" href="for-you.html">For You</a>-->
+<!--						</li>-->
+<!--						<li class="nav-item">-->
+<!--							<a class="nav-link" href="trending.html">Trending</a>-->
+<!--						</li>-->
+<!--						<li class="nav-item">-->
+<!--							<a class="nav-link" href="news.html">News</a>-->
+<!--						</li>-->
+<!--						<li class="nav-item">-->
+<!--							<a class="nav-link" href="sports.html">Sports</a>-->
+<!--						</li>-->
+<!--						<li class="nav-item">-->
+<!--							<a class="nav-link d-none d-md-block" href="entertainment.html">Entertainment</a>-->
+<!--						</li>-->
+<!--					</ul>-->
+
+<!--					&lt;!&ndash; Content &ndash;&gt;-->
+<!--					<div class="wd-main-contents">-->
+
+<!--						&lt;!&ndash; Big Image &ndash;&gt;-->
+<!--						<div class="position-relative mb-2">-->
+<!--							<img class="wd-main-img-big img-fluid" src="images/tennis_australian_open.jpg">-->
+<!--							<div class="wd-main-img-big-text position-absolute bottom-0 left-0 p-3 text-white">-->
+<!--								<div class="wd-main-img-big-text-live text-white">-->
+<!--									Tennis Tournament - LIVE-->
+<!--								</div>-->
+<!--								<div class="wd-main-img-big-text-title text-white">-->
+<!--									Australian Open 2023-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+
+<!--						&lt;!&ndash; Text Lists &ndash;&gt;-->
+<!--						<ul class="wd-main-texts list-group">-->
+<!--							<li class="list-group-item">-->
+<!--								<div class="row">-->
+<!--									<div class="col-10">-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-trending col-12">-->
+<!--												Politics&#183;Trending-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-topic col-12">-->
+<!--												Seizures-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-tweets col-12">-->
+<!--												4,953 Tweets-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<div class="col-2 text-center">-->
+<!--										<a href="#" class="wd-main-text-more"><i class="fa fa-ellipsis-h fa-1x align-middle"></i></a>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</li>-->
+<!--							<li class="list-group-item">-->
+<!--								<div class="row">-->
+<!--									<div class="col-12">-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-hash col-12">-->
+<!--												#InfinityPool-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-description col-12">-->
+<!--												See the electrifying thriller Infinity Pool in theaters-if you dare-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-promote col-12">-->
+<!--												<i class="promoted-icon bi bi-arrow-up-right fa-xs"></i>-->
+<!--												<span class="promoted">Promoted by Neon</span>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</li>-->
+<!--							<li class="list-group-item">-->
+<!--								<div class="row">-->
+<!--									<div class="col-10">-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-trending col-12">-->
+<!--												Sports&#183;Trending-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-topic col-12">-->
+<!--												RIP Bean-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-tweets col-12">-->
+<!--												18K Tweets-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<div class="col-2 text-center">-->
+<!--										<a href="#" class="wd-main-text-more"><i class="fa fa-ellipsis-h fa-1x align-middle"></i></a>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</li>-->
+<!--							<li class="list-group-item">-->
+<!--								<div class="row">-->
+<!--									<div class="col-10">-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-trending col-12">-->
+<!--												Politics&#183;Trending-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-topic col-12">-->
+<!--												Durham-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-trending-with col-12">-->
+<!--												Trending with-->
+<!--												<span>-->
+<!--													<a href="#" class="wd-main-trending-with-link">-->
+<!--														Barr-->
+<!--													</a>-->
+<!--												</span>-->
+<!--												,-->
+<!--												<span>-->
+<!--													<a href="#" class="wd-main-trending-with-link">-->
+<!--														Barr-->
+<!--													</a>-->
+<!--												</span>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<div class="col-2 text-center">-->
+<!--										<a href="#" class="wd-main-text-more"><i class="fa fa-ellipsis-h fa-1x align-middle"></i></a>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</li>-->
+<!--							<li class="list-group-item">-->
+<!--								<div class="row">-->
+<!--									<div class="col-10">-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-trending col-12">-->
+<!--												Trending in Business and finance-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-hash col-12">-->
+<!--												#DirectedEvolution-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<div class="row">-->
+<!--											<div class="wd-main-tweets col-12">-->
+<!--												172K Tweets-->
+<!--											</div>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<div class="col-2 text-center">-->
+<!--										<a href="#" class="wd-main-text-more"><i class="fa fa-ellipsis-h fa-1x align-middle"></i></a>-->
+<!--									</div>-->
+<!--								</div>-->
+<!--							</li>-->
+<!--						</ul>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</main>-->
+
+<!--			&lt;!&ndash; Right Sidebar &ndash;&gt;-->
+<!--			<nav class="col-lg-4 d-none d-lg-block pt-2">-->
+<!--				<ul class="wd-right-nav list-group mb-2">-->
+<!--					<li class="list-group-item align-items-center">-->
+<!--						<h3 class="wd-right-nav-title">Who to follow</h3>-->
+<!--					</li>-->
+<!--					<li class="list-group-item">-->
+<!--						<div class="row">-->
+<!--							<div class="col-2">-->
+<!--								<img class="wd-right-nav-img wd-img-java" src="images/northeastern.jpg">-->
+<!--							</div>-->
+<!--							<div class="wd-right-nav-text col-7">-->
+<!--								<div class="wd-right-nav-item-title col-12">-->
+<!--									Northeastern U.-->
+<!--									<i class="fa fa-check-circle blue-check fa-1x"></i>-->
+<!--								</div>-->
+<!--								<div class="wd-right-nav-item-hash col-12">@Northeastern</div>-->
+<!--							</div>-->
+<!--							<div class="col-3 align-self-center">-->
+<!--								<button type="button" class="wd-right-nav-button black-btn btn btn-primary float-end">Follow</button>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</li>-->
+<!--					<li class="list-group-item">-->
+<!--						<div class="row">-->
+<!--							<div class="col-2">-->
+<!--								<img class="wd-right-nav-img wd-img-java" src="images/free_person.jpg">-->
+<!--							</div>-->
+<!--							<div class="wd-right-nav-text col-7">-->
+<!--								<div class="wd-right-nav-item-title col-12">-->
+<!--									Matt Wallace-->
+<!--									<i class="fa fa-check-circle blue-check fa-1x"></i>-->
+<!--								</div>-->
+<!--								<div class="wd-right-nav-item-hash col-12">@MattWallace888</div>-->
+<!--							</div>-->
+<!--							<div class="col-3 align-self-center">-->
+<!--								<button type="button" class="wd-right-nav-button black-btn btn btn-primary float-end">Follow</button>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</li>-->
+<!--					<li class="list-group-item">-->
+<!--						<div class="row">-->
+<!--							<div class="col-2">-->
+<!--								<img class="wd-right-nav-img wd-img-java" src="images/pointsbet.jpg">-->
+<!--							</div>-->
+<!--							<div class="wd-right-nav-text col-7">-->
+<!--								<div class="wd-right-nav-item-title col-12">-->
+<!--									Points Bet Sportsbet-->
+<!--									<i class="fa fa-check-circle yellow-check fa-1x"></i>-->
+<!--								</div>-->
+<!--								<div class="wd-right-nav-item-hash col-12">@PointsBetUSA</div>-->
+<!--								<div class="wd-right-nav-item-promoted mt-1">-->
+<!--									<i class="promoted-icon bi bi-arrow-up-right fa-xs"></i>-->
+<!--									<span class="promoted">Promoted</span>-->
+
+<!--								</div>-->
+<!--							</div>-->
+<!--							<div class="col-3 align-self-center">-->
+<!--								<button type="button" class="wd-right-nav-button black-btn btn btn-primary float-end">Follow</button>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</li>-->
+<!--					<li class="list-group-item align-items-center">-->
+<!--						<a href="#" class="wd-right-nav-more">Show more</a>-->
+<!--					</li>-->
+<!--				</ul>-->
+<!--				<div class="wd-right-nav-copyright">-->
+<!--					<a href="#" class="wd-right-nav-copyright-link d-inline">-->
+<!--						Terms of Service-->
+<!--					</a>-->
+<!--					<a href="#" class="wd-right-nav-copyright-link d-inline">-->
+<!--						Private Policy-->
+<!--					</a>-->
+<!--					<a href="#" class="wd-right-nav-copyright-link d-inline">-->
+<!--						Cookie Policy-->
+<!--					</a>-->
+<!--					<a href="#" class="wd-right-nav-copyright-link d-inline">-->
+<!--						Accessibility-->
+<!--					</a>-->
+<!--					<a href="#" class="wd-right-nav-copyright-link d-inline">-->
+<!--						Ads info-->
+<!--					</a>-->
+<!--					<a href="#" class="wd-right-nav-copyright-link d-inline">-->
+<!--						More...-->
+<!--					</a>-->
+<!--					<div class="wd-right-nav-copyright-company">-->
+<!--						@2023 Twitter.Inc.-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</nav>-->
+<!--		</div>-->
+<!--	</div>-->
+
+</body>
+</html>
