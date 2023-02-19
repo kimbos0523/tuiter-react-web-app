@@ -2,13 +2,9 @@
 
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import PostSummaryList from "../PostSummaryList/index.js";
-import PostList from "../PostList";
+import PostList from "../PostList/index.js";
 
 function homeComponent() {
-    // $(".nav-left-item").click(function(event) {
-    //     console.log(this);
-    //     NavigationSidebar($(".nav-left a", this).attr('id'));
-    // });
     $('#wd-explore').append(
         `<div class="row mt-2">
             <div class="col-2 col-md-2 col-lg-1 col-xl-2">
@@ -29,7 +25,6 @@ function homeComponent() {
             </div>
         </div>
     `);
-
 }
 
 $(homeComponent);
