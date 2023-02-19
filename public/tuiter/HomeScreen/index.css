@@ -1,0 +1,35 @@
+.wd-posts {
+	color: white;
+}
+.wd-post-avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.wd-post-more {
+	color: grey;
+}
+.wd-post-handle,
+.wd-post-time,
+.wd-post-summary,
+.wd-post-from,
+.wd-post-icons {
+	color: grey;
+}
+
+.wd-post-img {
+	border: dimgray 1px solid;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.wd-post-image-text > li {
+	border: dimgray 1px solid;
+}
+.wd-post-image-text > li:last-child {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.wd-postsum-img {
+	border-radius: 5px;
+}

@@ -220,6 +220,8 @@ const init = () => {
     const ul = $("#append-new-elements");
     ul.append(newLineItem);
     ul.append(anotherLineItem);
+    const customLineItem = $("<li>Custom Line item1</li>");
+    ul.append(customLineItem);
 
     // 2.18
     const removeLi =$("#remove-this");
