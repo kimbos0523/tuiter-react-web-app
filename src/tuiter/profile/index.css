@@ -1,0 +1,24 @@
+.wd-banner-picture {
+}
+
+.wd-profile-picture {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: -50px;
+	left: 30px;
+}
+
+.wd-profile-body {
+	position: relative;
+	top: -40px;
+}
+
+.wd-profile-head-name,
+.wd-profile-name {
+	font-weight: bold;
+	font-size: 20px;
+}
+.wd-profile-handle {
+	color: dimgray;
+}
